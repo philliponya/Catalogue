@@ -15,6 +15,9 @@
 		298F301615CC2648002196EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 298F301515CC2648002196EA /* AppDelegate.m */; };
 		298F301915CC2648002196EA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298F301715CC2648002196EA /* MainStoryboard.storyboard */; };
 		298F301C15CC2648002196EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 298F301B15CC2648002196EA /* ViewController.m */; };
+		298F302415CC2666002196EA /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 298F302315CC2666002196EA /* Item.m */; };
+		298F302715CC26B9002196EA /* Books.m in Sources */ = {isa = PBXBuildFile; fileRef = 298F302615CC26B9002196EA /* Books.m */; };
+		298F302A15CC26C7002196EA /* CDs.m in Sources */ = {isa = PBXBuildFile; fileRef = 298F302915CC26C7002196EA /* CDs.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,12 @@
 		298F301815CC2648002196EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		298F301A15CC2648002196EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		298F301B15CC2648002196EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		298F302215CC2666002196EA /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		298F302315CC2666002196EA /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		298F302515CC26B9002196EA /* Books.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Books.h; sourceTree = "<group>"; };
+		298F302615CC26B9002196EA /* Books.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Books.m; sourceTree = "<group>"; };
+		298F302815CC26C7002196EA /* CDs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDs.h; sourceTree = "<group>"; };
+		298F302915CC26C7002196EA /* CDs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDs.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +59,12 @@
 		298F2FF615CC2648002196EA = {
 			isa = PBXGroup;
 			children = (
+				298F302215CC2666002196EA /* Item.h */,
+				298F302315CC2666002196EA /* Item.m */,
+				298F302515CC26B9002196EA /* Books.h */,
+				298F302615CC26B9002196EA /* Books.m */,
+				298F302815CC26C7002196EA /* CDs.h */,
+				298F302915CC26C7002196EA /* CDs.m */,
 				298F300B15CC2648002196EA /* Catalogue */,
 				298F300415CC2648002196EA /* Frameworks */,
 				298F300215CC2648002196EA /* Products */,
@@ -164,6 +179,9 @@
 				298F301215CC2648002196EA /* main.m in Sources */,
 				298F301615CC2648002196EA /* AppDelegate.m in Sources */,
 				298F301C15CC2648002196EA /* ViewController.m in Sources */,
+				298F302415CC2666002196EA /* Item.m in Sources */,
+				298F302715CC26B9002196EA /* Books.m in Sources */,
+				298F302A15CC26C7002196EA /* CDs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

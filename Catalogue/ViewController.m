@@ -31,4 +31,11 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+//Required methods for UITableViewDataSource
+- (NSInteger) tableView: (UITableView *) tableView numberOfRowsInSection: (NSInteger) section
+{
+    return 10;
+}
+
+
 @end
