@@ -21,7 +21,9 @@ CDs*newCD = [[CDs alloc] init];
 newCD.artist = artist;
 newCD.label = label;
 newCD.price = price;
-newCD. identificationNumber = idNum;
+newCD.idNum = idNum;
+    
+    
     
 }
 
